@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomBugle", "RandomBugle\RandomBugle.csproj", "{BAC3D827-5ED4-4458-A838-DB6214577E4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomBugleDB", "RandomBugleDB\RandomBugleDB.csproj", "{3E2DADC3-3FAF-4997-B865-F2E4A31B0DAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAC3D827-5ED4-4458-A838-DB6214577E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC3D827-5ED4-4458-A838-DB6214577E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC3D827-5ED4-4458-A838-DB6214577E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC3D827-5ED4-4458-A838-DB6214577E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2DADC3-3FAF-4997-B865-F2E4A31B0DAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2DADC3-3FAF-4997-B865-F2E4A31B0DAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2DADC3-3FAF-4997-B865-F2E4A31B0DAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2DADC3-3FAF-4997-B865-F2E4A31B0DAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6A247D69-7111-4871-B506-2EE3F78E4B8F}
+	EndGlobalSection
+EndGlobal

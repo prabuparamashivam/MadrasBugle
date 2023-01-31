@@ -1,0 +1,54 @@
+﻿@model RandomBugle.ViewModels.PostViewModel
+@{
+
+}
+<link rel="stylesheet" href="~/lib/Trumbowyg-main/dist/ui/trumbowyg.min.css">
+<div>
+    <form asp-controller="Panel" asp-action="Edit" method="post" enctype="multipart/form-data">
+        <input asp-for="Id" type="hidden" />
+        <div>
+            <lable>title</lable>
+            <input asp-for="Title"/>
+        </div> 
+        <div>
+            <lable>Description</lable>
+            <input asp-for="Description"/>
+        </div> 
+        <div>
+            <lable>Tags</lable>
+            <input asp-for="Tags"/>
+        </div> 
+        <div>
+            <lable>Category</lable>
+          
+            <select asp-for="Category">
+               <option value="Travel">Travel</option>
+               <option value="Programming">Programming</option>
+               <option value="Photoraphy">Photoraphy</option>
+
+            </select>
+        </div> 
+         <div>
+            <lable>Body</lable>
+            <textarea id="editor"  asp-for="Body"></textarea>
+        </div> 
+         <div>
+            <lable>Image</lable>
+            <input asp-for="Image"/>
+             <input asp-for="CurrentImage" type="hidden"/>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+    
+</div>
+
+@section scripts{
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="~/lib/Trumbowyg-main/dist/trumbowyg.min.js"></script>
+   <script>
+       $('#editor').trumbowyg();
+       //.-- class
+       // # - id
+       // nav-  html element
+   </script>
+}
